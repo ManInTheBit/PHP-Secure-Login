@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ebcede62-0a7d-4a0b-a7c1-99efc9538cb5" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-    </list>
+    <list default="true" id="ebcede62-0a7d-4a0b-a7c1-99efc9538cb5" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -160,12 +157,12 @@
       <updated>1551553741416</updated>
       <workItem from="1551553742684" duration="52086000" />
       <workItem from="1551948117545" duration="1680000" />
-      <workItem from="1552403080239" duration="14232000" />
+      <workItem from="1552403080239" duration="14563000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="67998000" />
+    <option name="totallyTimeSpent" value="68329000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1439" y="128" width="1368" height="773" extended-state="6" />
