@@ -22,6 +22,24 @@ if (isset($_POST['login'])) {
         $username = SecureLoginHelper::my_strip_tags($username);
         $password = SecureLoginHelper::my_strip_tags($password);
 
+        $username = SecureLoginHelper::my_filter_var($username);
+        $password = SecureLoginHelper::my_filter_var($password);
+
+        $username = SecureLoginHelper::my_htmlspecialchars($username);
+        $password = SecureLoginHelper::my_htmlspecialchars($password);
+
+        $username = SecureLoginHelper::my_utf8_decode($username);
+        $password = SecureLoginHelper::my_utf8_decode($password);
+
+        $username = SecureLoginHelper::my_htmlentities($username);
+        $password = SecureLoginHelper::my_htmlentities($password);
+
+        $username = SecureLoginHelper::my_stripslashes($username);
+        $password = SecureLoginHelper::my_stripslashes($password);
+
+        $username = SecureLoginHelper::my_mysqli_real_escape_string($username);
+        $password = SecureLoginHelper::my_mysqli_real_escape_string($password);
+
         $username = $_POST['username'];
         $encryptedPassword = md5($_POST['password']);
 
